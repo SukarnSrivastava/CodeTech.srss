@@ -301,7 +301,7 @@ function increaseIndent()
 function changeListStyle(value)
 {
 	node = getSelectionContainerElement();
-	while(node.tagName!='ul')
+	while(node.tagName!='UL')
 		node = node.parentNode;
 	node.className = value;
 
